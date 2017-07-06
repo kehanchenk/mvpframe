@@ -19,4 +19,5 @@ public interface MyMvpFrameComponent {
 
     void inject(MainActivity activity);
 
+
 }

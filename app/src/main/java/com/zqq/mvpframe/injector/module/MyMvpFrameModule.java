@@ -19,16 +19,16 @@ import dagger.Provides;
 @Module
 public class MyMvpFrameModule {
 
-    private MyMvpFrameContract.View mView;
+    private MyMvpFrameContract.View mVew;
 
     public MyMvpFrameModule(MyMvpFrameContract.View view) {
-        mView = view;
+        mVew = view;
     }
 
     @Provides
     public MyMvpFrameContract.View providerView() {
 
-        return mView;
+        return mVew;
     }
 
 

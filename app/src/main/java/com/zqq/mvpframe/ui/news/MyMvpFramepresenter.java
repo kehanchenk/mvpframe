@@ -21,7 +21,7 @@ public class MyMvpFramepresenter extends BasePresenter<MyMvpFrameModel,MyMvpFram
     public MyMvpFramepresenter(MyMvpFrameModel model, MyMvpFrameContract.View view) {
         super(model, view);
     }
-
+  
     @Override
     public void requestData(String param) {
         mModel.getData(param, new Subscriber<List<NewsInfo>>() {
